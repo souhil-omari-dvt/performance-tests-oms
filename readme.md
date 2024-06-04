@@ -1,4 +1,4 @@
-# Preformance Test on OMS
+# Preformance Test on OMS with K6
 
 ## Description
  k6 is an open-source load testing tool that makes performance testing easy and productive for platform engineering teams.
@@ -13,6 +13,9 @@ Stress Test: What is the maximum capacity of the system? How many users with wha
 
 Soak Test: Would the system sustain for a long time(generally from hours to days) under normal conditions? It’s working for 15min under typical conditions in the load test but is it feasible for a much longer time?
 
+Spike Test: a very quick ramp up of traffic that lasts a short amount of time before quickly dying down.
+we quickly increase traffic by req/s, and then quickly drop back down again.
+
 ## Installation
 To install k6 on windows, run the following command:
 ```bash
@@ -24,3 +27,5 @@ To run a script :
 ```bash
 k6 run simple.js
 ``` 
+
+Note : This tests are testing one endpoints in product ms
