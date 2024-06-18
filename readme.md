@@ -22,7 +22,7 @@ Using k6 on OMS, so we can test the reliability and performance of our systems a
 **Spike Test**: a very quick ramp up of traffic that lasts a short amount of time before quickly dying down.
 we quickly increase traffic by req/s, and then quickly drop back down again.
 
-![image info](figures/spike_test.png)
+![image info](figures/spike_test.PNG)
 
 ## Installation
 To install k6 on windows, run the following command:
